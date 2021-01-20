@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-dark fixed-top bg-dark">
+            <div class="container">
+                <a href="index.html"class="navbar-brand">
+                    <img src="p1.jfif" width="100" height="50" class="d-inline-block aling-top rounded" alt="" >
+                     Pie Shop
+                </a>
+        <div class="navbar navbar-collapse" id="navbar-collapse">
+          <ul class="nav navbar-nav mr-auto">
+              <li class="nav-items active">
+                  <a class="nav-link active navbar-hover " href="index.html">Home</a>
+              </li>
+              <li class="nav-items">
+                <a class="nav-link" href="index.html">Pie</a>
+            </li>
+            <li class="nav-items">
+                <a class="nav-link" href="index.html">Order</a>
+            </li>
+          </ul>
+          </div>
+          </div>
+        </nav>
+    </header>
+
+    <main role="main">
+
+<div class="jumbotron jumbotron-detail-apple-pie mt-4 ">
+    <h1 class="display-5 text-white text-center pt-5 text-capitalize ">Ready to order? So are We!</h1>
+
+</div>
+<div class="container-fluid ">
+    <div class="p-2-md-4 pb-md-3 mx-auto text-center">
+        <h1 class="display-4">Your details</h1>
+        </div>
+
+        <div class="row">
+            <div class="col-md-8 offset-2">
+                <h4 class="mb-3 col-md-6">Your address</h4>
+                <from action="order.html" method="get">
+                    <div class="row">
+                        <div class="col-md-6 mb-3 from-group  ">
+                           <label for="FirstName">First Name</label>
+                           <input type="text" class="from-control" id="firstname" placeholder="your first name">
+                        </div>
+                        <div class="col-md-6 mb-3 from-group  ">
+                            <label for="lastname">Last Name</label>
+                            <input type="text" class="from-control" id="lastname" placeholder="Your Last name"> 
+                        </div>
+
+                    </div>
+                    <div class=" mb-3 form-group  center">
+                        <label for="email">Email</label>
+                        <div class="input-group">
+                            <div class="input-group-Prepend">
+                                <span class="input-group-text">@</span>
+                            </div>
+                            <input type="text"class="form-control" id="email" placeholder="Email">
+                        </div>
+                    
+                    <div class="mb-3 ">
+                        <div class="row">
+                    <div class="col-md-6 mb-3 mt-3 from-group">
+                        <label for="zip">Zip Code</label>
+                        <input type="text" class="form-control" id="city" placeholder="Bakery street"City>
+                    </div>
+                    <div class="col-md-6 mb-3 mt-3 from-group ">
+                        <label for="zip">City</label>
+                        <input type="text" class="form-control" id="city" placeholder="Zip code"City>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 mb-3 from-group">
+                    <label for="state">State</label>
+                    <select  class="custom-select w-100" id="state" >
+                        <option value="">Select state.....</option>
+                        <option value="">Alabama</option>
+                        <option value="">Alakska</option>
+                        <option value="">Aekansas</option>
+                        <option value="">Califrnia</option>
+                        <option value="">Coloradic</option>
+                        <option value="">Delaware</option>
+                        <option value="">Floride</option>
+                        <option value="">Georgia</option>
+                        <option value="">Hawai</option>
+                        <option value="">Idak</option>
+                        <option value="">Mofin</option>
+                    </select>
+
+                </div>
+                <div class="col-md-4 mb-3 from-group">
+                    <label for="state">Country</label>
+                    <select  class="custom-select w-100" id="state" >
+                        <option value="">Select Country.....</option>
+                        <option value="">Africa</option>
+                        <option value="">America</option>
+                        <option value="">Japan</option>
+                        <option value="">India</option>
+                        <option value="">London</option>
+                        <option value="">.....</option>
+                        <option value="">Floride</option>
+                        
+                    </select>
+
+                </div>
+            </div>
+            <div class="mb-3">
+                  <div class="form-group">
+                      <label for="remarks">Remarks</label>
+                      <textarea class="form-control" name="" id="remark" cols="" rows="3"></textarea>
+                  </div>
+            </div>
+            <div class="mb-5">
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="saveShiping">
+                    <label class="custom-control-label" for="saveShipping"  for="">Remember my shipping Information</label>
+                </div>
+            </div>
+            <button class="btn btn-dark btn-lg btn-block mb-3" type="submit">Place your order now!</button>
+                </from>
+            </div>
+        </div>
+   </div>
+</div>
+
+
+
+</body>
+
+</html>

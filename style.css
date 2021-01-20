@@ -1,0 +1,24 @@
+body{
+    padding-top: 3px;
+    padding-bottom: 3px;
+    background-image: url("pie7.jpg");
+    background-repeat: repeat;
+}
+.jumbotron{
+    height:200px ;
+    background-size: cover;
+
+    
+}
+.jumbotron-detail-apple-pie{
+    background :url('ap2.jpg') fixed ;
+}
+.img{
+    height:"20px;"
+}
+
+@media (max-width: 768px){
+    present{
+        display:block;
+    }
+}
